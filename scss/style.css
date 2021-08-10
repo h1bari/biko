@@ -1084,6 +1084,9 @@ footer ul li a img {
   top: 14px;
 }
 
+.we_do_section {
+  padding: 70px 0;
+}
 .we_do_section .about_header h2 {
   color: black;
   font-size: 32px;
@@ -1142,6 +1145,68 @@ footer ul li a img {
   background: #0B2ED4;
   left: 0;
   top: 15px;
+}
+
+.about_our_team .about_header h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+}
+.about_our_team .our_team {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.about_our_team .our_team .item {
+  width: 290px;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: #0B2ED4;
+  padding: 10px;
+  border-radius: 14px;
+}
+.about_our_team .our_team .item .avatar_item {
+  position: relative;
+  top: -70px;
+  display: flex;
+  justify-content: center;
+}
+.about_our_team .our_team .item .avatar_item img {
+  width: 97px;
+}
+.about_our_team .our_team .item .item_body {
+  margin-top: -50px;
+}
+.about_our_team .our_team .item .item_body h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+.about_our_team .our_team .item .item_body p {
+  padding: 0 10px;
+  line-height: 1.5;
+}
+.about_our_team .our_team .item .item_body .social_list ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.about_our_team .our_team .item .item_body .social_list ul li {
+  width: 43px;
+  height: 43px;
+  background: #0B2ED4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  font-size: 0;
+}
+.about_our_team .our_team .item .item_body .social_list ul li img {
+  width: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */
