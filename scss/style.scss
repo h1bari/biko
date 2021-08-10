@@ -1160,6 +1160,7 @@ footer {
 
 .we_do_section {
   padding: 70px 0;
+
   .about_header {
     h2 {
       @include font(32px, $weight: 700);
@@ -1174,7 +1175,6 @@ footer {
 
     .item {
       box-shadow: 9px 9px 10px -5px rgb(0 0 0 / 50%);
-      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
       margin: 60px 20px 20px 20px;
       width: 46%;
 
@@ -1204,8 +1204,9 @@ footer {
           li {
             position: relative;
             padding-left: 30px;
-            line-height:2;
+            line-height: 2;
             @include font(19px, $weight: 500, $align: left);
+
             &:before {
               position: absolute;
               content: "";
@@ -1222,19 +1223,23 @@ footer {
     }
   }
 }
-.about_our_team{
+
+.about_our_team {
   padding: 40px;
-  .about_header{
-    h2{
-      @include font(32px,$color:black);
+
+  .about_header {
+    h2 {
+      @include font(32px, $color: black);
       text-transform: none;
     }
   }
-  .our_team{
+
+  .our_team {
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    .item{
+
+    .item {
       width: 290px;
       border-style: solid;
       border-width: 4px 4px 4px 4px;
@@ -1242,30 +1247,37 @@ footer {
       padding: 10px;
       border-radius: 14px;
       margin: 0 50px;
-      .avatar_item{
+
+      .avatar_item {
         position: relative;
         top: -70px;
         display: flex;
         justify-content: center;
-        img{
+
+        img {
           width: 97px;
         }
       }
-      .item_body{
+
+      .item_body {
         margin-top: -50px;
-        h2{
-          @include font(28px,$color:black);
+
+        h2 {
+          @include font(28px, $color: black);
         }
-        p{
+
+        p {
           padding: 0 10px;
           line-height: 1.5;
         }
-        .social_list{
-          ul{
+
+        .social_list {
+          ul {
             display: flex;
             justify-content: center;
             margin-top: 20px;
-            li{
+
+            li {
               width: 43px;
               height: 43px;
               background: #0B2ED4;
@@ -1275,7 +1287,8 @@ footer {
               align-items: center;
               margin: 4px;
               font-size: 0;
-              img{
+
+              img {
                 width: 23px;
               }
             }
@@ -1285,20 +1298,191 @@ footer {
     }
   }
 }
-.button_green{
+
+.button_green {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  a{
-    @include font(21px,$color:white,$weight:600);
+
+  a {
+    @include font(21px, $color: white, $weight: 600);
     background: #0BD4A3;
     border-radius: 22px;
     padding: 15px 30px;
     line-height: 1;
   }
 }
-.about_blue_line{
-  .blue_line{
+
+.about_blue_line {
+  .blue_line {
     padding: 20px 0;
+  }
+}
+
+.for_beginners_header {
+  .block_header {
+    h2 {
+      @include font(32px, $color: white, $weight: 600, $align: left);
+      margin-bottom: 20px;
+    }
+
+    p {
+      @include font(19px, $color: white, $align: left);
+      line-height: 1.5;
+    }
+  }
+}
+
+.main_for_beginners {
+  .block_header {
+    h2 {
+      @include font(32px, $color: black, $weight: 700, $align: center);
+    }
+  }
+
+  .blog_wrap {
+    .blog_item_main {
+      align-self: flex-start;
+
+      h3 {
+        @include font(22px, $color: black, $weight: 700, $align: left);
+      }
+
+      ul {
+        @include font(19px, $color: black, $align: left);
+
+        li {
+
+          line-height: 2.5;
+
+          span {
+
+          }
+
+          a {
+            font-family: 'Source Sans Pro', sans-serif !important;
+            @include font(19px, $color: #1565C0, $align: left);
+            margin-left: 5px;
+            text-decoration: underline;
+          }
+
+          .unlink {
+            color: black;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.blog_item_sidebar {
+  .sidebar_info {
+    background: #000;
+    margin-left: 30px;
+    width: 90%;
+    padding: 15px;
+    margin-top: 20px;
+    h3 {
+      @include font(18px, $color: #fff, $align: center);
+      margin: 20px 0;
+      line-height: 1.5;
+    }
+
+    p {
+      @include font(18px, $color: #fff, $align: center);
+      margin-bottom: 20px;
+    }
+  }
+
+  .sidebar_share {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #01010257;
+    padding: 12px 12px 12px 12px;
+    margin-left: 30px;
+    width: 90%;
+    margin-top: 30px;
+    h3 {
+      @include font(20px, $color: #000, $align: center);
+    }
+
+    .social_list {
+
+      ul {
+        display: flex;
+        margin: 5px;
+        justify-content: center;
+        li {
+          width: 40px;
+          height: 40px;
+
+          margin: 5px;
+          border-radius: 50%;
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0;
+            height: 100%;
+            width: 100%;
+            img {
+              padding: 0;
+              width: 24px;
+            }
+          }
+        }
+
+        .facebook_color {
+          background: #3b5998;
+        }
+
+        .twitter_color {
+          background: #1da1f2;
+        }
+
+        .linkedin_color {
+          background: #0077b5;
+        }
+
+        .telegram_color {
+          background: #2ca5e0;
+        }
+      }
+    }
+  }
+}
+.blue_bottom_for_beginners{
+  background: none;
+  .blue_line{
+    background: #0B2ED4;
+    padding: 70px 0;
+    .header_main_text{
+      h2{
+        @include font(32px, $color: #fff, $align: center,$weight:700);
+      }
+    }
+    .wrap_content_block{
+      margin-top: 50px;
+      .left_side{
+        img{
+          width: 100%;
+        }
+      }
+      .right_side{
+        padding-left: 30px;
+        .description_list{
+          @include font(32px, $color: #fff, $align: left,$weight:700);
+          margin-top: -60px;
+          margin-bottom: 15px;
+        }
+        p{
+          @include font(19px, $color: #fff, $align: left);
+        }
+        .button_green{
+          justify-content: flex-start;
+        }
+      }
+    }
   }
 }

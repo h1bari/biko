@@ -1101,7 +1101,6 @@ footer ul li a img {
 }
 .we_do_section .item_wrap .item {
   box-shadow: 9px 9px 10px -5px rgba(0, 0, 0, 0.5);
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin: 60px 20px 20px 20px;
   width: 46%;
 }
@@ -1231,6 +1230,172 @@ footer ul li a img {
 
 .about_blue_line .blue_line {
   padding: 20px 0;
+}
+
+.for_beginners_header .block_header h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.for_beginners_header .block_header p {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.main_for_beginners .block_header h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.main_for_beginners .blog_wrap .blog_item_main {
+  align-self: flex-start;
+}
+.main_for_beginners .blog_wrap .blog_item_main h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+}
+.main_for_beginners .blog_wrap .blog_item_main ul {
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+}
+.main_for_beginners .blog_wrap .blog_item_main ul li {
+  line-height: 2.5;
+}
+.main_for_beginners .blog_wrap .blog_item_main ul li a {
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: #1565C0;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+.main_for_beginners .blog_wrap .blog_item_main ul li .unlink {
+  color: black;
+  text-decoration: none;
+}
+
+.blog_item_sidebar .sidebar_info {
+  background: #000;
+  margin-left: 30px;
+  width: 90%;
+  padding: 15px;
+  margin-top: 20px;
+}
+.blog_item_sidebar .sidebar_info h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+.blog_item_sidebar .sidebar_info p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.blog_item_sidebar .sidebar_share {
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #01010257;
+  padding: 12px 12px 12px 12px;
+  margin-left: 30px;
+  width: 90%;
+  margin-top: 30px;
+}
+.blog_item_sidebar .sidebar_share h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.blog_item_sidebar .sidebar_share .social_list ul {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+}
+.blog_item_sidebar .sidebar_share .social_list ul li {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50%;
+}
+.blog_item_sidebar .sidebar_share .social_list ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0;
+  height: 100%;
+  width: 100%;
+}
+.blog_item_sidebar .sidebar_share .social_list ul li a img {
+  padding: 0;
+  width: 24px;
+}
+.blog_item_sidebar .sidebar_share .social_list ul .facebook_color {
+  background: #3b5998;
+}
+.blog_item_sidebar .sidebar_share .social_list ul .twitter_color {
+  background: #1da1f2;
+}
+.blog_item_sidebar .sidebar_share .social_list ul .linkedin_color {
+  background: #0077b5;
+}
+.blog_item_sidebar .sidebar_share .social_list ul .telegram_color {
+  background: #2ca5e0;
+}
+
+.blue_bottom_for_beginners {
+  background: none;
+}
+.blue_bottom_for_beginners .blue_line {
+  background: #0B2ED4;
+  padding: 70px 0;
+}
+.blue_bottom_for_beginners .blue_line .header_main_text h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.blue_bottom_for_beginners .blue_line .wrap_content_block {
+  margin-top: 50px;
+}
+.blue_bottom_for_beginners .blue_line .wrap_content_block .left_side img {
+  width: 100%;
+}
+.blue_bottom_for_beginners .blue_line .wrap_content_block .right_side {
+  padding-left: 30px;
+}
+.blue_bottom_for_beginners .blue_line .wrap_content_block .right_side .description_list {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: -60px;
+  margin-bottom: 15px;
+}
+.blue_bottom_for_beginners .blue_line .wrap_content_block .right_side p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+}
+.blue_bottom_for_beginners .blue_line .wrap_content_block .right_side .button_green {
+  justify-content: flex-start;
 }
 
 /*# sourceMappingURL=style.css.map */
