@@ -1049,5 +1049,99 @@ footer ul li a img {
   text-align: center;
   text-transform: none;
 }
+.about_main_section .blog_wrap .blog_item_main {
+  align-self: flex-start;
+}
+.about_main_section .blog_wrap .blog_item_main p {
+  line-height: 1.5;
+}
+.about_main_section .blog_wrap .blog_item_main span {
+  color: black;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: left;
+  font-family: "Poppins", Sans-serif;
+  margin-bottom: 20px;
+  display: block;
+}
+.about_main_section .blog_wrap .blog_item_main ul li {
+  line-height: 2;
+  color: black;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: left;
+  position: relative;
+  padding-left: 24px;
+}
+.about_main_section .blog_wrap .blog_item_main ul li:before {
+  position: absolute;
+  content: "";
+  background: url("../image/black_arrow.png") no-repeat;
+  background-size: cover;
+  height: 14px;
+  width: 14px;
+  left: 0;
+  top: 14px;
+}
+
+.we_do_section .about_header h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+}
+.we_do_section .item_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.we_do_section .item_wrap .item {
+  box-shadow: 9px 9px 10px -5px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 60px 20px 20px 20px;
+  width: 46%;
+}
+.we_do_section .item_wrap .item .item_image {
+  right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: -50px;
+}
+.we_do_section .item_wrap .item .item_image svg, .we_do_section .item_wrap .item .item_image img {
+  width: 86px;
+  fill: #0B2ED4;
+}
+.we_do_section .item_wrap .item .item_body {
+  margin-top: -30px;
+  padding: 0 30px 30px;
+}
+.we_do_section .item_wrap .item .item_body h3 {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.we_do_section .item_wrap .item .item_body ul li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 2;
+  color: black;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: left;
+}
+.we_do_section .item_wrap .item .item_body ul li:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0B2ED4;
+  left: 0;
+  top: 15px;
+}
 
 /*# sourceMappingURL=style.css.map */
