@@ -94,6 +94,7 @@
 
 
                 <div class="you_tube_video">
+                    <h2>More details in the video:</h2>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/l7Bffxs4xSk"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -142,17 +143,17 @@
                 <div class="articles_form_block">
                     <form action="" class="articles_form">
                         <h3>Leave a Reply</h3>
-                        <span>Your email address will not be published. Required fields are marked *</span>
+                        <span>Your email address will not be published. Required fields are marked <span class="required_star">*</span></span>
                         <label for="comment">Comment</label>
                         <textarea name="comment" id="comment"></textarea>
                         <div class="name_email">
                             <div class="name_block">
-                                <label for="name">Name</label>
+                                <label for="name">Name<span class="required_star"><sup>*</sup></span></label>
                                 <input type="text" id="name" required>
                             </div>
 
                             <div class="email_block">
-                                <label for="email">Email</label>
+                                <label for="email">Email<span class="required_star"><sup>*</sup></span></label>
                                 <input type="email" id="email" required>
                             </div>
                         </div>

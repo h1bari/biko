@@ -1322,18 +1322,19 @@ footer ul li a img {
   font-weight: 400;
   text-align: center;
 }
-.blog_item_sidebar .sidebar_share .social_list ul {
+
+.social_list ul {
   display: flex;
   margin: 5px;
   justify-content: center;
 }
-.blog_item_sidebar .sidebar_share .social_list ul li {
+.social_list ul li {
   width: 40px;
   height: 40px;
   margin: 5px;
   border-radius: 50%;
 }
-.blog_item_sidebar .sidebar_share .social_list ul li a {
+.social_list ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1341,20 +1342,20 @@ footer ul li a img {
   height: 100%;
   width: 100%;
 }
-.blog_item_sidebar .sidebar_share .social_list ul li a img {
+.social_list ul li a img {
   padding: 0;
   width: 24px;
 }
-.blog_item_sidebar .sidebar_share .social_list ul .facebook_color {
+.social_list ul .facebook_color {
   background: #3b5998;
 }
-.blog_item_sidebar .sidebar_share .social_list ul .twitter_color {
+.social_list ul .twitter_color {
   background: #1da1f2;
 }
-.blog_item_sidebar .sidebar_share .social_list ul .linkedin_color {
+.social_list ul .linkedin_color {
   background: #0077b5;
 }
-.blog_item_sidebar .sidebar_share .social_list ul .telegram_color {
+.social_list ul .telegram_color {
   background: #2ca5e0;
 }
 
@@ -1396,6 +1397,119 @@ footer ul li a img {
 }
 .blue_bottom_for_beginners .blue_line .wrap_content_block .right_side .button_green {
   justify-content: flex-start;
+}
+
+.blog_item_main .you_tube_video h2 {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.blog_item_main .you_tube_video iframe {
+  width: 100%;
+  height: 440px;
+}
+.blog_item_main .topics_articles h3 {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.blog_item_main .topics_articles ul li {
+  list-style: disc;
+  margin-left: 20px;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5;
+}
+.blog_item_main .topics_articles ul li a {
+  color: #1565C0;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Source Sans Pro", Sans-serif !important;
+}
+.blog_item_main .advice {
+  margin-top: 70px;
+}
+.blog_item_main .advice .social_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog_item_main .advice .social_wrap .social_information {
+  margin-right: 15px;
+}
+.blog_item_main .advice .social_wrap .social_information span {
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+}
+.blog_item_main .advice .social_wrap .social_information h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+}
+.blog_item_main .advice .social_wrap .social_list img {
+  width: 24px;
+}
+.blog_item_main .articles_form_block form h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-weight: 400 !important;
+  margin-bottom: 10px;
+}
+.blog_item_main .articles_form_block form span {
+  display: block;
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+.blog_item_main .articles_form_block form label {
+  display: block;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.blog_item_main .articles_form_block form label span {
+  display: inline-block;
+}
+.blog_item_main .articles_form_block form textarea {
+  width: 100%;
+  font-size: 13px;
+  padding: 6px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+  border-radius: 2px;
+  height: 238px;
+}
+.blog_item_main .articles_form_block form input {
+  font-size: 13px;
+  padding: 6px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+  border-radius: 2px;
+  width: 100%;
+}
+.blog_item_main .articles_form_block form .name_email {
+  display: flex;
+  justify-content: space-between;
+}
+.blog_item_main .articles_form_block form .name_email .name_block, .blog_item_main .articles_form_block form .name_email .email_block {
+  width: 48%;
 }
 
 /*# sourceMappingURL=style.css.map */
