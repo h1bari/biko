@@ -1015,4 +1015,39 @@ footer ul li a img {
   margin-bottom: 30px;
 }
 
+.about_head_section {
+  background: url("../image/logo-2.png") no-repeat 15% 50%;
+  background-size: 15%;
+}
+.about_head_section .blue_line {
+  padding: 50px;
+}
+.about_head_section .blue_line .header_main_text {
+  display: flex;
+  align-items: center;
+}
+.about_head_section .blue_line .header_main_text h1 {
+  width: 20%;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 125px;
+}
+.about_head_section .blue_line .header_main_text p {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.about_main_section .about_header h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+}
+
 /*# sourceMappingURL=style.css.map */
