@@ -1223,6 +1223,7 @@ footer {
   }
 }
 .about_our_team{
+  padding: 40px;
   .about_header{
     h2{
       @include font(32px,$color:black);
@@ -1231,7 +1232,7 @@ footer {
   }
   .our_team{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 100px;
     .item{
       width: 290px;
@@ -1240,6 +1241,7 @@ footer {
       border-color: #0B2ED4;
       padding: 10px;
       border-radius: 14px;
+      margin: 0 50px;
       .avatar_item{
         position: relative;
         top: -70px;
@@ -1281,5 +1283,22 @@ footer {
         }
       }
     }
+  }
+}
+.button_green{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  a{
+    @include font(21px,$color:white,$weight:600);
+    background: #0BD4A3;
+    border-radius: 22px;
+    padding: 15px 30px;
+    line-height: 1;
+  }
+}
+.about_blue_line{
+  .blue_line{
+    padding: 20px 0;
   }
 }
