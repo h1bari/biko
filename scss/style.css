@@ -1554,6 +1554,7 @@ footer ul li a img {
 
 .articles_pagination, .for_beginners_blog_pagination {
   margin-bottom: 70px;
+  padding: 10px;
 }
 .articles_pagination .for_beginners_blog_pagination_wrap, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap {
   color: #d4d4d4;
