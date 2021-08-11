@@ -1474,6 +1474,11 @@ footer ul li a img {
   font-size: 13px;
   font-weight: 400;
   text-align: left;
+  color: #757575;
+}
+.blog_item_main .articles_form_block form span .required_star {
+  display: inline-block;
+  color: red;
 }
 .blog_item_main .articles_form_block form label {
   display: block;
@@ -1483,9 +1488,6 @@ footer ul li a img {
   text-align: left;
   margin-top: 15px;
   margin-bottom: 5px;
-}
-.blog_item_main .articles_form_block form label span {
-  display: inline-block;
 }
 .blog_item_main .articles_form_block form textarea {
   width: 100%;
@@ -1503,6 +1505,7 @@ footer ul li a img {
   background: #fff;
   border-radius: 2px;
   width: 100%;
+  height: 36px;
 }
 .blog_item_main .articles_form_block form .name_email {
   display: flex;
@@ -1510,6 +1513,104 @@ footer ul li a img {
 }
 .blog_item_main .articles_form_block form .name_email .name_block, .blog_item_main .articles_form_block form .name_email .email_block {
   width: 48%;
+}
+.blog_item_main .articles_form_block form .name_email .name_block label .required_star, .blog_item_main .articles_form_block form .name_email .email_block label .required_star {
+  display: inline-block;
+  line-height: 10px;
+}
+.blog_item_main .articles_form_block form .name_email .name_block label .required_star sup, .blog_item_main .articles_form_block form .name_email .email_block label .required_star sup {
+  font-size: 25px;
+  margin-left: 3px;
+  color: red;
+  padding-top: 10px;
+}
+.blog_item_main .articles_form_block form .checkbox_block {
+  margin-bottom: 20px;
+}
+.blog_item_main .articles_form_block form .checkbox_block input, .blog_item_main .articles_form_block form .checkbox_block label {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+.blog_item_main .articles_form_block form .checkbox_block label {
+  margin-left: 10px;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+}
+.blog_item_main .articles_form_block form input[type=submit] {
+  position: relative;
+  border: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.54);
+  padding: 6px 16px;
+  margin: 0 4px 0 0;
+  min-width: 64px;
+  display: flex;
+  border-radius: 2px;
+  width: auto;
+}
+
+.articles_pagination, .for_beginners_blog_pagination {
+  margin-bottom: 70px;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap {
+  color: #d4d4d4;
+  border: 1px solid;
+  border-right: none;
+  border-left: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap .prev_link, .articles_pagination .for_beginners_blog_pagination_wrap .next_link, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .prev_link, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .next_link {
+  width: 50%;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap .prev_link p, .articles_pagination .for_beginners_blog_pagination_wrap .prev_link span, .articles_pagination .for_beginners_blog_pagination_wrap .next_link p, .articles_pagination .for_beginners_blog_pagination_wrap .next_link span, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .prev_link p, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .prev_link span, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .next_link p, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .next_link span {
+  width: 100%;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap .left_side, .articles_pagination .for_beginners_blog_pagination_wrap .right_side, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .left_side, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .right_side {
+  color: #7A7A7A;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap .left_side span, .articles_pagination .for_beginners_blog_pagination_wrap .right_side span, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .left_side span, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .right_side span {
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap .right_side, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .right_side {
+  text-align: right;
+  padding-right: 25px;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap .right_side:before, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .right_side:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 20px;
+  background: url("../image/next.png") no-repeat center;
+  background-size: contain;
+  top: 13px;
+  right: 5px;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap .left_side, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .left_side {
+  padding-left: 25px;
+  border-right: 0.5px solid #d4d4d4;
+}
+.articles_pagination .for_beginners_blog_pagination_wrap .left_side:before, .for_beginners_blog_pagination .for_beginners_blog_pagination_wrap .left_side:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 20px;
+  background: url("../image/prev.png") no-repeat center;
+  background-size: contain;
+  top: 13px;
+  left: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
