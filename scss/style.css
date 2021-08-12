@@ -1636,4 +1636,95 @@ footer ul li a img {
   overflow: hidden;
 }
 
+.trading_course_header {
+  background: none;
+}
+.trading_course_header .teaching_section {
+  padding: 20px 0;
+}
+.trading_course_header .teaching_section .block_header {
+  background: #0B2ED4;
+  padding: 10px;
+}
+.trading_course_header .teaching_section .block_header h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+.trading_course_header .block_video {
+  margin-top: 20px;
+}
+.trading_course_header .block_video h2 {
+  color: black;
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+}
+.trading_course_header .block_video .video_head {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.course_button {
+  display: flex;
+  justify-content: center;
+}
+.course_button a {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 116px;
+  font-family: "Poppins", Sans-serif;
+  background: #0B2ED4;
+  line-height: 1;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #000000;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+.course_button a:hover {
+  background: #01B88A;
+}
+
+.person_header {
+  padding: 60px 0;
+  background: #000;
+}
+.person_header h2 {
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.person_header_section .person_header_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.person_header_section .person_header_wrap .person_header_item {
+  width: 33%;
+  text-align: center;
+  margin-top: 50px;
+}
+.person_header_section .person_header_wrap .person_header_item img {
+  width: 67px;
+  margin-bottom: 10px;
+}
+.person_header_section .person_header_wrap .person_header_item p {
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
 /*# sourceMappingURL=style.css.map */
