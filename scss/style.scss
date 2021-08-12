@@ -1780,7 +1780,8 @@ footer {
     h2 {
       @include font(37px, $color: black, $weight: 700);
     }
-    .video_head{
+
+    .video_head {
       margin-top: 20px;
       display: flex;
       justify-content: center;
@@ -1788,11 +1789,13 @@ footer {
     }
   }
 }
-.course_button{
+
+.course_button {
   display: flex;
   justify-content: center;
-  a{
-    @include font(28px, $color: white, $weight: 700,$align:center);
+
+  a {
+    @include font(28px, $color: white, $weight: 700, $align: center);
     padding: 20px 116px;
     font-family: "Poppins", Sans-serif;
     background: #0B2ED4;
@@ -1803,35 +1806,66 @@ footer {
     border-radius: 2px 2px 2px 2px;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
     transition: .5s;
-    &:hover{
+
+    &:hover {
       background: #01B88A;
     }
   }
 }
-.person_header{
+
+.person_header {
   padding: 60px 0;
   background: #000;
-  h2{
-    @include font(46px, $color: white, $weight: 700,$align:center);
+
+  h2 {
+    @include font(46px, $color: white, $weight: 700, $align: center);
   }
 }
-.person_header_section{
-.person_header_wrap{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  .person_header_item{
-    width: 33%;
-    text-align: center;
-    margin-top: 50px;
-    img{
-      width: 67px;
-      margin-bottom: 10px;
-    }
-    p{
-      @include font(22px,$align:center);
-      margin-bottom: 12px;
+
+.person_header_section {
+  .person_header_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .person_header_item {
+      width: 33%;
+      text-align: center;
+      margin-top: 50px;
+
+      img {
+        width: 67px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        @include font(22px, $align: center);
+        margin-bottom: 12px;
+      }
     }
   }
 }
+
+.do_get_section {
+  background: #F2F2F2;
+  padding: 50px 0;
+  .wrap_list{
+    display: flex;
+    .top-left {
+      .block_header {
+        h2 {
+          @include font(46px, $color: black, $weight: 700, $align: left);
+        }
+
+        ul {
+          li {
+            padding-left: 32px;
+            @include font(22px, $color: black, $weight: 500, $align: left);
+          }
+        }
+      }
+    }
+  }
+
+
 }

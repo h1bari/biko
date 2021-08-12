@@ -1727,4 +1727,25 @@ footer ul li a img {
   margin-bottom: 12px;
 }
 
+.do_get_section {
+  background: #F2F2F2;
+  padding: 50px 0;
+}
+.do_get_section .wrap_list {
+  display: flex;
+}
+.do_get_section .wrap_list .top-left .block_header h2 {
+  color: black;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: left;
+}
+.do_get_section .wrap_list .top-left .block_header ul li {
+  padding-left: 32px;
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+}
+
 /*# sourceMappingURL=style.css.map */
