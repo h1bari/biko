@@ -1852,15 +1852,66 @@ footer {
   .wrap_list{
     display: flex;
     .top-left {
+      width: 60%;
       .block_header {
         h2 {
           @include font(46px, $color: black, $weight: 700, $align: left);
         }
 
         ul {
+
           li {
             padding-left: 32px;
             @include font(22px, $color: black, $weight: 500, $align: left);
+            position: relative;
+            margin-bottom: 20px;
+            &:before{
+              position: absolute;
+              background: url("../image/check.png") no-repeat center;
+              background-size: cover;
+              content:"";
+              top: 5px;
+              width:22px;
+              height: 22px;
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+    .top-right{
+
+      img{
+        width: 333px;
+        margin-left: 100px;
+      }
+
+    }
+
+    .left_side{
+      width: 50%;
+      margin-top: 50px;
+      img{
+        width: 540px;
+      }
+    }
+    .right_side{
+      margin-top: 50px;
+      ul {
+        li {
+          padding-left: 32px;
+          @include font(22px, $color: black, $weight: 500, $align: left);
+          position: relative;
+          margin-bottom: 20px;
+          &:before{
+            position: absolute;
+            background: url("../image/check.png") no-repeat center;
+            background-size: cover;
+            content:"";
+            top: 5px;
+            width:22px;
+            height: 22px;
+            left: 0;
           }
         }
       }

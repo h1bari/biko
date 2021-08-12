@@ -1734,6 +1734,9 @@ footer ul li a img {
 .do_get_section .wrap_list {
   display: flex;
 }
+.do_get_section .wrap_list .top-left {
+  width: 60%;
+}
 .do_get_section .wrap_list .top-left .block_header h2 {
   color: black;
   font-size: 46px;
@@ -1746,6 +1749,51 @@ footer ul li a img {
   font-size: 22px;
   font-weight: 500;
   text-align: left;
+  position: relative;
+  margin-bottom: 20px;
+}
+.do_get_section .wrap_list .top-left .block_header ul li:before {
+  position: absolute;
+  background: url("../image/check.png") no-repeat center;
+  background-size: cover;
+  content: "";
+  top: 5px;
+  width: 22px;
+  height: 22px;
+  left: 0;
+}
+.do_get_section .wrap_list .top-right img {
+  width: 333px;
+  margin-left: 100px;
+}
+.do_get_section .wrap_list .left_side {
+  width: 50%;
+  margin-top: 50px;
+}
+.do_get_section .wrap_list .left_side img {
+  width: 540px;
+}
+.do_get_section .wrap_list .right_side {
+  margin-top: 50px;
+}
+.do_get_section .wrap_list .right_side ul li {
+  padding-left: 32px;
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+  position: relative;
+  margin-bottom: 20px;
+}
+.do_get_section .wrap_list .right_side ul li:before {
+  position: absolute;
+  background: url("../image/check.png") no-repeat center;
+  background-size: cover;
+  content: "";
+  top: 5px;
+  width: 22px;
+  height: 22px;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
