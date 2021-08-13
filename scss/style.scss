@@ -2838,8 +2838,8 @@ footer {
       img{
         width: 360px;
         position: absolute;
-        top: 0;
-        left: 20px;
+        left: 90px;
+        bottom: 0;
       }
       .introduce {
         box-shadow: 15px -15px 0px 0px #0e27a0;
@@ -2895,8 +2895,7 @@ footer {
         width: 380px;
         position: absolute;
         top: 0;
-        right: 50px;
-        left: 0;
+        left: 64%;
       }
       .two{
         max-width: 800px;
@@ -2904,6 +2903,5 @@ footer {
       }
     }
   }
-
 
 }

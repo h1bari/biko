@@ -2655,8 +2655,8 @@ footer ul li a img {
 .scalping_header .teaching_section .scalping_header_wrap img {
   width: 360px;
   position: absolute;
-  top: 0;
-  left: 20px;
+  left: 90px;
+  bottom: 0;
 }
 .scalping_header .teaching_section .scalping_header_wrap .introduce {
   box-shadow: 15px -15px 0px 0px #0e27a0;
@@ -2713,8 +2713,7 @@ footer ul li a img {
   width: 380px;
   position: absolute;
   top: 0;
-  right: 50px;
-  left: 0;
+  left: 64%;
 }
 .scalping_header_two .teaching_section .wrap_two .two {
   max-width: 800px;
