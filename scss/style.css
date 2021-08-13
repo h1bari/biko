@@ -2518,5 +2518,19 @@ footer ul li a img {
 .choose_plan_section .block_header h2 {
   color: white;
 }
+.choose_plan_section .plan_wrap .plan h3 {
+  color: white;
+  font-size: 44px;
+  font-weight: 400;
+  text-align: center;
+}
+.choose_plan_section .plan_wrap .plan ul li {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  position: relative;
+  padding-left: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

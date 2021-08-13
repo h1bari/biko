@@ -2683,4 +2683,33 @@ footer {
       color: white;
     }
   }
+  .plan_wrap{
+
+
+    .plan{
+      h3{
+        @include font(44px, $color: white);
+      }
+
+      ul{
+        li{
+          @include font(19px, $color: white,$align:left);
+          position: relative;
+          padding-left: 30px;
+          &:before{
+
+          }
+        }
+      }
+
+      p{
+
+      }
+      .plan_button{
+        a{
+
+        }
+      }
+    }
+  }
 }
