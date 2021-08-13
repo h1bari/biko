@@ -2601,5 +2601,86 @@ footer {
     }
 
   }
-
+}
+.mentoring_program{
+  padding: 50px 0;
+  background: #191A1E;
+  .benefits_mentoring_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .mentoring_item,.one{
+      background: url("../image/one.png") no-repeat left;
+      background-size: contain;
+      width: 45%;
+      padding-left: 120px;
+      margin-bottom: 60px;
+      p{
+        @include font(19px, $color: white, $align: left);
+        line-height: 1.5;
+      }
+    }
+    .two{
+      background: url("../image/two.png") no-repeat left;
+      background-size: contain;
+    }
+    .three{
+      background: url("../image/three.png") no-repeat left;
+      background-size: contain;
+    }
+    .four{
+      background: url("../image/four.png") no-repeat left;
+      background-size: contain;
+    }
+  }
+}
+.mentoring_private{
+  background: #191A1E;
+  .block_header{
+    h2{
+      color: white;
+    }
+  }
+}
+.how_started{
+  padding: 50px 0;
+  background: #191A1E;
+  .block_header{
+    h2{
+      color: white;
+    }
+  }
+  .step_count_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .step_count_item{
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: space-around;
+      width: 65%;
+      align-items: center;
+      span{
+        @include font(40px, $color: white, $align: left);
+      }
+      p{
+        @include font(19px, $color: white);
+        padding: 20px;
+        background: #1F2023;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+        border-radius: 16px;
+        display: inline-block;
+        width: 386px;
+      }
+    }
+  }
+}
+.choose_plan_section{
+  padding: 50px 0;
+  background: #191A1E;
+  .block_header{
+    h2{
+      color: white;
+    }
+  }
 }

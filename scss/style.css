@@ -2430,4 +2430,93 @@ footer ul li a img {
   line-height: 1.7;
 }
 
+.mentoring_program {
+  padding: 50px 0;
+  background: #191A1E;
+}
+.mentoring_program .benefits_mentoring_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mentoring_program .benefits_mentoring_item .mentoring_item, .mentoring_program .benefits_mentoring_item .one {
+  background: url("../image/one.png") no-repeat left;
+  background-size: contain;
+  width: 45%;
+  padding-left: 120px;
+  margin-bottom: 60px;
+}
+.mentoring_program .benefits_mentoring_item .mentoring_item p, .mentoring_program .benefits_mentoring_item .one p {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5;
+}
+.mentoring_program .benefits_mentoring_item .two {
+  background: url("../image/two.png") no-repeat left;
+  background-size: contain;
+}
+.mentoring_program .benefits_mentoring_item .three {
+  background: url("../image/three.png") no-repeat left;
+  background-size: contain;
+}
+.mentoring_program .benefits_mentoring_item .four {
+  background: url("../image/four.png") no-repeat left;
+  background-size: contain;
+}
+
+.mentoring_private {
+  background: #191A1E;
+}
+.mentoring_private .block_header h2 {
+  color: white;
+}
+
+.how_started {
+  padding: 50px 0;
+  background: #191A1E;
+}
+.how_started .block_header h2 {
+  color: white;
+}
+.how_started .step_count_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.how_started .step_count_wrap .step_count_item {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+  align-items: center;
+}
+.how_started .step_count_wrap .step_count_item span {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left;
+}
+.how_started .step_count_wrap .step_count_item p {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+  background: #1F2023;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  display: inline-block;
+  width: 386px;
+}
+
+.choose_plan_section {
+  padding: 50px 0;
+  background: #191A1E;
+}
+.choose_plan_section .block_header h2 {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
