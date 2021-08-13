@@ -2621,4 +2621,12 @@ footer ul li a img {
   line-height: 1;
 }
 
+.disclaimer_section {
+  padding: 60px 0;
+  text-align: center;
+}
+.disclaimer_section img {
+  width: 56px;
+}
+
 /*# sourceMappingURL=style.css.map */
