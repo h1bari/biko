@@ -2828,12 +2828,14 @@ footer {
 }
 
 .scalping_header {
-  .scalping_header {
+  .teaching_section {
+    padding-bottom: 0;
+
     .scalping_header_wrap {
-      background: url("../image/Artem-5.png") no-repeat left;
-      background-size: contain;
+
       display: flex;
       justify-content: flex-end;
+
       .introduce {
         box-shadow: 15px -15px 0px 0px #0e27a0;
         margin: 0px 0px 10px 0px;
@@ -2857,5 +2859,37 @@ footer {
       }
     }
   }
+}
+.clients_say_section{
+  background: #191A1E;
+  padding: 50px;
+  text-align: center;
+  .img_block{
+    img{
+      width: 80%;
+    }
+  }
+  p{
+    @include font(29px, $color: white, $weight: 600);
+    font-family: "Poppins", Sans-serif;
+    margin-top: 30px;
+  }
+}
+.scalping_header_two{
+
+  .teaching_section{
+    padding: 0;
+    .scalping_header_wrap{
+      background: none;
+    }
+    .wrap_two{
+      padding: 100px 0;
+      justify-content: flex-start;
+      .two{
+        max-width: 800px;
+      }
+    }
+  }
+
 
 }

@@ -2644,33 +2644,65 @@ footer ul li a img {
   line-height: 1.5;
 }
 
-.scalping_header .scalping_header .scalping_header_wrap {
-  background: url("../image/Artem-5.png") no-repeat left;
-  background-size: contain;
+.scalping_header .teaching_section {
+  padding-bottom: 0;
+}
+.scalping_header .teaching_section .scalping_header_wrap {
   display: flex;
   justify-content: flex-end;
 }
-.scalping_header .scalping_header .scalping_header_wrap .introduce {
+.scalping_header .teaching_section .scalping_header_wrap .introduce {
   box-shadow: 15px -15px 0px 0px #0e27a0;
   margin: 0px 0px 10px 0px;
   padding: 30px 30px 30px 30px;
   background: #fff;
   max-width: 680px;
 }
-.scalping_header .scalping_header .scalping_header_wrap .introduce .header_main_text h1 {
+.scalping_header .teaching_section .scalping_header_wrap .introduce .header_main_text h1 {
   color: black;
   font-size: 32px;
   font-weight: 600;
   text-align: center;
 }
-.scalping_header .scalping_header .scalping_header_wrap .introduce .header_main_text p {
+.scalping_header .teaching_section .scalping_header_wrap .introduce .header_main_text p {
   color: black;
   font-size: 21px;
   font-weight: 400;
   text-align: left;
 }
-.scalping_header .scalping_header .scalping_header_wrap .introduce .header_main_text p span {
+.scalping_header .teaching_section .scalping_header_wrap .introduce .header_main_text p span {
   font-weight: 700;
+}
+
+.clients_say_section {
+  background: #191A1E;
+  padding: 50px;
+  text-align: center;
+}
+.clients_say_section .img_block img {
+  width: 80%;
+}
+.clients_say_section p {
+  color: white;
+  font-size: 29px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Poppins", Sans-serif;
+  margin-top: 30px;
+}
+
+.scalping_header_two .teaching_section {
+  padding: 0;
+}
+.scalping_header_two .teaching_section .scalping_header_wrap {
+  background: none;
+}
+.scalping_header_two .teaching_section .wrap_two {
+  padding: 100px 0;
+  justify-content: flex-start;
+}
+.scalping_header_two .teaching_section .wrap_two .two {
+  max-width: 800px;
 }
 
 /*# sourceMappingURL=style.css.map */
