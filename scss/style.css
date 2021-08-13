@@ -2644,25 +2644,33 @@ footer ul li a img {
   line-height: 1.5;
 }
 
-.scalping_header .scalping_header_wrap {
+.scalping_header .scalping_header .scalping_header_wrap {
   background: url("../image/Artem-5.png") no-repeat left;
   background-size: contain;
   display: flex;
   justify-content: flex-end;
 }
-.scalping_header .scalping_header_wrap .introduce {
+.scalping_header .scalping_header .scalping_header_wrap .introduce {
   box-shadow: 15px -15px 0px 0px #0e27a0;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin: 0px 0px 10px 0px;
   padding: 30px 30px 30px 30px;
   background: #fff;
   max-width: 680px;
 }
-.scalping_header .scalping_header_wrap .introduce .header_main_text h1 {
+.scalping_header .scalping_header .scalping_header_wrap .introduce .header_main_text h1 {
   color: black;
   font-size: 32px;
   font-weight: 600;
   text-align: center;
+}
+.scalping_header .scalping_header .scalping_header_wrap .introduce .header_main_text p {
+  color: black;
+  font-size: 21px;
+  font-weight: 400;
+  text-align: left;
+}
+.scalping_header .scalping_header .scalping_header_wrap .introduce .header_main_text p span {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

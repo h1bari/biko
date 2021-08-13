@@ -2773,24 +2773,30 @@ footer {
     }
   }
 }
-.private{
+
+.private {
   background: none;
   padding: 60px;
 }
-.telegram_link_section{
+
+.telegram_link_section {
   background: #0B2ED4;
   padding: 70px 0;
-  .ready_wrap{
+
+  .ready_wrap {
     padding: 35px;
     background: #fff;
-    h3{
+
+    h3 {
       @include font(29px, $color: black, $weight: 600);
       margin-bottom: 30px;
     }
-    .telegram_button{
+
+    .telegram_button {
       display: flex;
       justify-content: center;
-      a{
+
+      a {
         @include font(29px, $color: white, $weight: 600);
         background-color: #0B2ED4;
         border-radius: 6px;
@@ -2800,41 +2806,56 @@ footer {
     }
   }
 }
-.disclaimer_section{
+
+.disclaimer_section {
   padding: 60px 0;
   text-align: center;
-  img{
+
+  img {
     width: 56px;
   }
-  h2{
+
+  h2 {
     @include font(33px, $color: black);
     margin-top: 10px;
   }
-  p{
+
+  p {
     @include font(19px, $color: black);
     margin-top: 30px;
     line-height: 1.5;
   }
 }
-.scalping_header{
 
-  .scalping_header_wrap{
-    background: url("../image/Artem-5.png") no-repeat left;
-    background-size: contain;
-    display: flex;
-    justify-content: flex-end;
-    .introduce{
-      box-shadow: 15px -15px 0px 0px #0e27a0;
-      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-      margin: 0px 0px 10px 0px;
-      padding: 30px 30px 30px 30px;
-      background: #fff;
-      max-width: 680px;
-      .header_main_text{
-        h1{
-          @include font(32px, $color: black, $weight: 600);
+.scalping_header {
+  .scalping_header {
+    .scalping_header_wrap {
+      background: url("../image/Artem-5.png") no-repeat left;
+      background-size: contain;
+      display: flex;
+      justify-content: flex-end;
+      .introduce {
+        box-shadow: 15px -15px 0px 0px #0e27a0;
+        margin: 0px 0px 10px 0px;
+        padding: 30px 30px 30px 30px;
+        background: #fff;
+        max-width: 680px;
+
+        .header_main_text {
+          h1 {
+            @include font(32px, $color: black, $weight: 600);
+          }
+
+          p {
+            @include font(21px, $color: black, $weight: 400, $align: left);
+
+            span {
+              font-weight: 700;
+            }
+          }
         }
       }
     }
   }
+
 }
