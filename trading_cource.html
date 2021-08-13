@@ -159,17 +159,20 @@
 
 
     </div>
-    <div class="block_header ">
+    <div class="block_header block_header_course">
         <div class="container">
             <h2>Simply put, every day when you have this skill set, in real-time, you see the predictions of the
                 forecast with a 70-80% probability of where the price will move.</h2>
         </div>
     </div>
+    <div class="course_button">
+        <a href="#">» Get instant access to Trading Course «</a>
+    </div>
 
 </section>
 <section class="accordion_section">
     <div class="container ">
-        <div class="container block_header">
+        <div class="block_header">
             <h2>WHAT YOU’LL LEARN IN THIS COURSE</h2>
         </div>
     </div>
@@ -428,25 +431,26 @@
 </section>
 <section class="offer_section">
     <div class="container">
-        <div class="left_side">
-            <div class="block_header ">
-                <h2>SPECIAL OFFER!</h2>
-                <p>If you participate right now, you`ll get access to the crypto community where I share with students
-                    personal trades, trading plans, news with a detailed explanation of what to do, and more important
-                    HOW…</p>
-                <h3>PLEASE NOTE A FEW THINGS BEFORE</h3>
-                <ul>
-                    <li>My clients in profit even if the win rate is 40-50%, and IN HUGE PROFIT when it’s over 50%</li>
-                    <li>The client`s monthly gains: 20-50%. It`s 30% in general</li>
-                    <li>You will LEARN and EARN by applying my knowledge and experience to daily practice</li>
-                </ul>
+        <div class="offer_wrap">
+            <div class="left_side">
+                <div class="block_header ">
+                    <h2>SPECIAL OFFER!</h2>
+                    <p>If you participate right now, you`ll get access to the crypto community where I share with students
+                        personal trades, trading plans, news with a detailed explanation of what to do, and more important
+                        HOW…</p>
+                    <h3>PLEASE NOTE A FEW THINGS BEFORE</h3>
+                    <ul>
+                        <li>My clients in profit even if the win rate is 40-50%, and IN HUGE PROFIT when it’s over 50%</li>
+                        <li>The client`s monthly gains: 20-50%. It`s 30% in general</li>
+                        <li>You will LEARN and EARN by applying my knowledge and experience to daily practice</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right_side">
+                <img src="./image/offer_laptop.jpg" alt="">
             </div>
         </div>
-
-        <div class="right_side">
-            <img src="./image/offer_laptop.jpg" alt="">
-        </div>
-
 
     </div>
 </section>
@@ -786,10 +790,10 @@
     var i;
 
     for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
+        acc[i].addEventListener("click", function() {
             this.classList.toggle("active");
             var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
+            if (panel.style.maxHeight){
                 panel.style.maxHeight = null;
             } else {
                 panel.style.maxHeight = panel.scrollHeight + "px";

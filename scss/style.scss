@@ -1733,29 +1733,6 @@ footer {
 }
 
 
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-
 .trading_course_header {
   background: none;
 
@@ -1849,10 +1826,13 @@ footer {
 .do_get_section {
   background: #F2F2F2;
   padding: 50px 0;
-  .wrap_list{
+
+  .wrap_list {
     display: flex;
+
     .top-left {
       width: 60%;
+
       .block_header {
         h2 {
           @include font(46px, $color: black, $weight: 700, $align: left);
@@ -1865,58 +1845,167 @@ footer {
             @include font(22px, $color: black, $weight: 500, $align: left);
             position: relative;
             margin-bottom: 20px;
-            &:before{
+
+            &:before {
               position: absolute;
               background: url("../image/check.png") no-repeat center;
               background-size: cover;
-              content:"";
+              content: "";
               top: 5px;
-              width:22px;
+              width: 22px;
               height: 22px;
               left: 0;
+            }
+
+            span {
+              font-weight: 700;
             }
           }
         }
       }
     }
-    .top-right{
 
-      img{
+    .top-right {
+
+      img {
         width: 333px;
         margin-left: 100px;
       }
 
     }
 
-    .left_side{
+    .left_side {
       width: 50%;
       margin-top: 50px;
-      img{
+
+      img {
         width: 540px;
       }
     }
-    .right_side{
+
+    .right_side {
       margin-top: 50px;
+
       ul {
         li {
           padding-left: 32px;
           @include font(22px, $color: black, $weight: 500, $align: left);
           position: relative;
           margin-bottom: 20px;
-          &:before{
+
+          &:before {
             position: absolute;
             background: url("../image/check.png") no-repeat center;
             background-size: cover;
-            content:"";
+            content: "";
             top: 5px;
-            width:22px;
+            width: 22px;
             height: 22px;
             left: 0;
+          }
+
+          span {
+            font-weight: 700;
           }
         }
       }
     }
   }
 
+  .block_header_course {
+    margin-top: 20px;
 
+    .container {
+      h2 {
+        @include font(32px, $color: black);
+      }
+    }
+  }
+
+}
+
+.accordion_section {
+  padding: 50px 0;
+
+  .block_header {
+    h2 {
+      @include font(46px, $color: black);
+      margin-bottom: 30px;
+    }
+  }
+
+  .accordion_block {
+    .accordion {
+      background-color: #e3e7fc;
+      color: #000;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      line-height: 1;
+      padding: 15px;
+      cursor: pointer;
+      font-family: "Poppins", Sans-serif;
+      font-size: 19px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      transition: 1s;
+    }
+
+
+    .panel {
+      padding: 0 18px;
+      background-color: #e3e7fc;
+      overflow: hidden;
+      transition: 1s;
+      color: #000000;
+      font-family: "Source Sans Pro", Sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      margin-top: -20px;
+      max-height: 0;
+
+      h3 {
+        @include font(19px, $color: black, $align: left);
+        margin-top: 20px;
+      }
+
+      ul {
+        padding-left: 22px;
+
+        li {
+          line-height: 1.5;
+          list-style: disc;
+          @include font(19px, $color: black, $align: left);
+
+          &:last-child {
+            margin-bottom: 20px;
+          }
+        }
+
+      }
+    }
+
+    .accordion:after {
+      content: '\02795';
+      font-size: 13px;
+      color: #777;
+      float: right;
+      margin-left: 5px;
+      transition: 1s;
+    }
+
+    .active:after {
+      content: "\2796";
+      transition: 1s;
+    }
+
+    margin-bottom: 30px;
+  }
+}
+.offer_section{
+  .container{
+
+  }
 }
