@@ -2389,30 +2389,37 @@ footer {
     margin-top: 50px;
   }
 }
-.swing{
+
+.swing {
   background: #191A1E;
-  .wrap_swing{
+
+  .wrap_swing {
     display: flex;
-    .left_side{
+
+    .left_side {
       width: 60%;
-      .block_header{
-        h2{
+
+      .block_header {
+        h2 {
           @include font(60px, $color: white, $align: left);
           margin-bottom: 20px;
         }
-        h3{
+
+        h3 {
           @include font(32px, $color: white, $align: left);
           margin-bottom: 20px;
         }
       }
-      ul{
-        li{
+
+      ul {
+        li {
           @include font(22px, $color: white, $align: left);
           padding-left: 35px;
           line-height: 1.7;
           margin-bottom: 20px;
           position: relative;
-          &:before{
+
+          &:before {
             position: absolute;
             content: "";
             width: 22px;
@@ -2422,39 +2429,47 @@ footer {
             background-size: contain;
             top: 8px;
           }
-          span{
+
+          span {
             font-weight: 700;
           }
         }
       }
     }
-    .right_side{
+
+    .right_side {
       width: 40%;
       align-self: center;
-      img{
+
+      img {
         width: 90%;
         margin-left: 50px;
       }
     }
   }
 }
-.not_section{
+
+.not_section {
   padding: 50px;
-  .block_header{
-    h2{
+
+  .block_header {
+    h2 {
       @include font(48px, $color: black);
     }
   }
-  .not_list{
+
+  .not_list {
     display: flex;
     justify-content: center;
-    ul{
-      li{
-        @include font(27px, $color: black,$weight:700,$align:left);
+
+    ul {
+      li {
+        @include font(27px, $color: black, $weight: 700, $align: left);
         position: relative;
         padding-left: 35px;
         line-height: 2;
-        &:before{
+
+        &:before {
           position: absolute;
           content: "";
           width: 23px;
@@ -2468,10 +2483,53 @@ footer {
     }
   }
 
-  h3{
-    @include font(32px, $color: black,$weight:700);
+  h3 {
+    @include font(32px, $color: black, $weight: 700);
     margin-top: 20px;
     margin-bottom: 50px;
   }
 }
 
+
+.mentoring_header {
+  padding-top: 1px;
+
+  .head_section {
+    .mentoring_blue_line {
+      background: #0B2ED4;
+      padding: 10px;
+      margin-top: 30px;
+
+      .header_main_text {
+        h1 {
+          margin-bottom: 0;
+          @include font(30px, $color: white, $weight: 700);
+        }
+      }
+    }
+  }
+
+  .teaching_section {
+    padding: 20px 0;
+
+    .container {
+      .block_header {
+        h2 {
+          @include font(37px, $color: white, $weight: 700);
+        }
+      }
+      .head_video{
+        .header_video{
+          display: flex;
+          justify-content: center;
+          iframe{
+            width: 70%;
+          }
+        }
+
+      }
+    }
+  }
+
+
+}

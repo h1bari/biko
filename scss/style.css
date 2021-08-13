@@ -2330,4 +2330,36 @@ footer ul li a img {
   margin-bottom: 50px;
 }
 
+.mentoring_header {
+  padding-top: 1px;
+}
+.mentoring_header .head_section .mentoring_blue_line {
+  background: #0B2ED4;
+  padding: 10px;
+  margin-top: 30px;
+}
+.mentoring_header .head_section .mentoring_blue_line .header_main_text h1 {
+  margin-bottom: 0;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.mentoring_header .teaching_section {
+  padding: 20px 0;
+}
+.mentoring_header .teaching_section .container .block_header h2 {
+  color: white;
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+}
+.mentoring_header .teaching_section .container .head_video .header_video {
+  display: flex;
+  justify-content: center;
+}
+.mentoring_header .teaching_section .container .head_video .header_video iframe {
+  width: 70%;
+}
+
 /*# sourceMappingURL=style.css.map */
