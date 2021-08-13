@@ -2586,4 +2586,39 @@ footer ul li a img {
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
+.private {
+  background: none;
+  padding: 60px;
+}
+
+.telegram_link_section {
+  background: #0B2ED4;
+  padding: 70px 0;
+}
+.telegram_link_section .ready_wrap {
+  padding: 35px;
+  background: #fff;
+}
+.telegram_link_section .ready_wrap h3 {
+  color: black;
+  font-size: 29px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.telegram_link_section .ready_wrap .telegram_button {
+  display: flex;
+  justify-content: center;
+}
+.telegram_link_section .ready_wrap .telegram_button a {
+  color: white;
+  font-size: 29px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #0B2ED4;
+  border-radius: 6px;
+  padding: 25px 50px;
+  line-height: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
