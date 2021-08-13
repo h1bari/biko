@@ -2806,4 +2806,13 @@ footer {
   img{
     width: 56px;
   }
+  h2{
+    @include font(33px, $color: black);
+    margin-top: 10px;
+  }
+  p{
+    @include font(19px, $color: black);
+    margin-top: 30px;
+    line-height: 1.5;
+  }
 }

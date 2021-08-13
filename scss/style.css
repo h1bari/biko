@@ -2628,5 +2628,20 @@ footer ul li a img {
 .disclaimer_section img {
   width: 56px;
 }
+.disclaimer_section h2 {
+  color: black;
+  font-size: 33px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+.disclaimer_section p {
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.5;
+}
 
 /*# sourceMappingURL=style.css.map */
