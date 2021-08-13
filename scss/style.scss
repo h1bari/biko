@@ -2832,10 +2832,15 @@ footer {
     padding-bottom: 0;
 
     .scalping_header_wrap {
-
+      position: relative;
       display: flex;
       justify-content: flex-end;
-
+      img{
+        width: 360px;
+        position: absolute;
+        top: 0;
+        left: 20px;
+      }
       .introduce {
         box-shadow: 15px -15px 0px 0px #0e27a0;
         margin: 0px 0px 10px 0px;
@@ -2885,8 +2890,17 @@ footer {
     .wrap_two{
       padding: 100px 0;
       justify-content: flex-start;
+      overflow: hidden;
+      img{
+        width: 380px;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        left: 0;
+      }
       .two{
         max-width: 800px;
+        box-shadow: -15px 15px 0px 0px #0e27a0;
       }
     }
   }

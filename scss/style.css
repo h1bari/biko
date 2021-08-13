@@ -2648,8 +2648,15 @@ footer ul li a img {
   padding-bottom: 0;
 }
 .scalping_header .teaching_section .scalping_header_wrap {
+  position: relative;
   display: flex;
   justify-content: flex-end;
+}
+.scalping_header .teaching_section .scalping_header_wrap img {
+  width: 360px;
+  position: absolute;
+  top: 0;
+  left: 20px;
 }
 .scalping_header .teaching_section .scalping_header_wrap .introduce {
   box-shadow: 15px -15px 0px 0px #0e27a0;
@@ -2700,9 +2707,18 @@ footer ul li a img {
 .scalping_header_two .teaching_section .wrap_two {
   padding: 100px 0;
   justify-content: flex-start;
+  overflow: hidden;
+}
+.scalping_header_two .teaching_section .wrap_two img {
+  width: 380px;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  left: 0;
 }
 .scalping_header_two .teaching_section .wrap_two .two {
   max-width: 800px;
+  box-shadow: -15px 15px 0px 0px #0e27a0;
 }
 
 /*# sourceMappingURL=style.css.map */
