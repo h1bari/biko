@@ -2573,6 +2573,7 @@ footer {
   .learn_item_wrap {
     display: flex;
     justify-content: space-around;
+
     .learn_item {
       width: 30%;
       background: #191A1E;
@@ -2602,68 +2603,83 @@ footer {
 
   }
 }
-.mentoring_program{
+
+.mentoring_program {
   padding: 50px 0;
   background: #191A1E;
-  .benefits_mentoring_item{
+
+  .benefits_mentoring_item {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    .mentoring_item,.one{
+
+    .mentoring_item, .one {
       background: url("../image/one.png") no-repeat left;
       background-size: contain;
       width: 47%;
       padding-left: 120px;
       margin-bottom: 60px;
-      p{
+
+      p {
         @include font(19px, $color: white, $align: left);
         line-height: 1.5;
       }
     }
-    .two{
+
+    .two {
       background: url("../image/two.png") no-repeat left;
       background-size: contain;
     }
-    .three{
+
+    .three {
       background: url("../image/three.png") no-repeat left;
       background-size: contain;
     }
-    .four{
+
+    .four {
       background: url("../image/four.png") no-repeat left;
       background-size: contain;
     }
   }
 }
-.mentoring_private{
+
+.mentoring_private {
   background: #191A1E;
-  .block_header{
-    h2{
+
+  .block_header {
+    h2 {
       color: white;
     }
   }
 }
-.how_started{
+
+.how_started {
   padding: 50px 0;
   background: #191A1E;
-  .block_header{
-    h2{
+
+  .block_header {
+    h2 {
       color: white;
     }
   }
-  .step_count_wrap{
+
+  .step_count_wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
-    .step_count_item{
+
+    .step_count_item {
       margin-bottom: 40px;
       display: flex;
       justify-content: space-around;
       width: 65%;
       align-items: center;
-      span{
+
+      span {
         @include font(40px, $color: white, $align: left);
       }
-      p{
+
+      p {
         @include font(19px, $color: white);
         padding: 20px;
         background: #1F2023;
@@ -2675,38 +2691,82 @@ footer {
     }
   }
 }
-.choose_plan_section{
+
+.choose_plan_section {
   padding: 50px 0;
   background: #191A1E;
-  .block_header{
-    h2{
+
+  .block_header {
+    h2 {
       color: white;
     }
   }
-  .plan_wrap{
 
+  .plan_wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
-    .plan{
-      h3{
+    .plan {
+      background-color: #0F2BB1;
+      box-shadow: 0px 0px 44px -14px #0b2ed4;
+      padding: 40px 40px 40px 40px;
+      border-radius: 20px;
+      width: 440px;
+
+      h3 {
         @include font(44px, $color: white);
+        margin-bottom: 15px;
       }
 
-      ul{
-        li{
-          @include font(19px, $color: white,$align:left);
+      ul {
+        li {
+          @include font(19px, $color: white, $align: left);
           position: relative;
-          padding-left: 30px;
-          &:before{
+          padding-left: 40px;
+          margin-bottom: 15px;
+          line-height: 1.5;
 
+          &:before {
+            position: absolute;
+            content: "";
+            width: 22px;
+            height: 22px;
+            background: url("../image/check_white.png") no-repeat center;
+            background-size: contain;
+            left: 0;
+            top: 5px;
           }
         }
       }
 
-      p{
-
+      p {
+        @include font(66px, $color: white, $weight: 600);
+        margin-bottom: 35px;
       }
-      .plan_button{
-        a{
+
+      .plan_button {
+        display: flex;
+        justify-content: center;
+
+        a {
+          font-family: "Poppins", Sans-serif;
+          font-size: 29px;
+          font-weight: 600;
+          background-color: #FEF52C;
+          border-radius: 20px 20px 20px 20px;
+          box-shadow: 0px 0px 5px 1px #fef52c;
+          padding: 10px 100px 10px 100px;
+          color: black;
+          transition: all .3s;
+          line-height: 1;
+          text-align: center;
+
+          &:hover {
+            transform: scale(1.2);
+            transition-timing-function: cubic-bezier(0.47, 2.02, .31, -.36);
+
+          }
 
         }
       }
