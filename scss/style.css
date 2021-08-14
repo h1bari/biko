@@ -671,7 +671,7 @@ footer ul li a img {
   width: 26%;
   align-self: flex-start;
 }
-.blog_wrap .blog_item_sidebar img {
+.blog_wrap .blog_item_sidebar .for_beginners_button {
   width: 100%;
   padding-left: 30px;
 }
@@ -2960,6 +2960,14 @@ footer ul li a img {
 }
 .feedback_section .big_video iframe {
   width: 100%;
+}
+
+.bottom_banner, .bottom_banner img {
+  width: 100%;
+}
+
+.social_list ul {
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
