@@ -2855,5 +2855,38 @@ footer ul li a img {
 .couple_section .feel_free {
   margin-top: 90px;
 }
+.couple_section .feel_free .bonus_block {
+  display: flex;
+}
+.couple_section .feel_free .bonus_block .bonus_item {
+  text-align: center;
+}
+.couple_section .feel_free .bonus_block .bonus_item img {
+  width: 71px;
+  margin-bottom: 20px;
+}
+.couple_section .feel_free .bonus_block .bonus_item h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.couple_section .feel_free .bonus_block .bonus_item p {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+}
+.couple_section .feel_free .bonus_description {
+  margin-top: 70px;
+}
+.couple_section .feel_free .bonus_description p {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -3030,6 +3030,7 @@ footer {
 .couple_section {
   background: #191A1E;
   padding: 70px 0;
+
   .three {
 
     box-shadow: -15px 15px 0px 0px #0e27a0;
@@ -3039,13 +3040,15 @@ footer {
     max-width: 90%;
 
     .header_main_text {
-      h2{
+      h2 {
         @include font(24px, $color: black, $weight: 700, $align: left);
         margin-bottom: 25px;
       }
+
       p {
         @include font(19px, $color: black, $weight: 400, $align: left);
         margin-bottom: 30px;
+
         span {
           font-weight: 700;
         }
@@ -3053,8 +3056,45 @@ footer {
     }
   }
 
-  .feel_free{
+  .feel_free {
     margin-top: 90px;
+
+    .bonus_block {
+      display: flex;
+
+      .bonus_item {
+        text-align: center;
+
+        img {
+          width: 71px;
+          margin-bottom: 20px;
+        }
+
+        h3 {
+          @include font(24px, $color: white, $weight: 700);
+          margin-bottom: 20px;
+        }
+
+        p {
+          @include font(19px, $color: white);
+          line-height: 1.5;
+        }
+      }
+    }
+
+    .bonus_description {
+      margin-top: 70px;
+
+      p {
+        @include font(24px, $color: white);
+      }
+    }
+
+    .wrap_four {
+      .header_main_text {
+
+      }
+    }
   }
 }
 
