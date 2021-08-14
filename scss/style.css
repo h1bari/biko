@@ -2689,13 +2689,15 @@ footer ul li a img {
 .clients_say_section .img_block img {
   width: 80%;
 }
-.clients_say_section p {
+
+.desc p {
   color: white;
-  font-size: 29px;
+  font-size: 32px;
   font-weight: 600;
   text-align: center;
   font-family: "Poppins", Sans-serif;
-  margin-top: 30px;
+  margin: 30px 0;
+  text-align: center;
 }
 
 .scalping_header_two .teaching_section {
@@ -2718,6 +2720,108 @@ footer ul li a img {
 .scalping_header_two .teaching_section .wrap_two .two {
   max-width: 800px;
   box-shadow: -15px 15px 0px 0px #0e27a0;
+}
+
+.artem_program {
+  background: #191A1E;
+  padding: 50px;
+}
+.artem_program .two_things {
+  display: flex;
+  justify-content: center;
+}
+.artem_program .two_things .two_things_item {
+  min-height: 120px;
+  display: flex;
+  margin: 0 80px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.artem_program .two_things .two_things_item img {
+  width: 68px;
+  height: 68px;
+  margin-bottom: 20px;
+}
+.artem_program .two_things .two_things_item p {
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+.artem_program .block_header_begin h2 {
+  margin-bottom: 30px;
+}
+.artem_program .block_header_begin p {
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.artem_program .block_header_begin ul li {
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 2;
+  position: relative;
+  padding-left: 35px;
+}
+.artem_program .block_header_begin ul li:before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 26px;
+  background: url("../image/arrow.png") no-repeat center;
+  background-size: contain;
+  top: 7px;
+  left: 0;
+}
+
+.no_more_block {
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: #FFFFFF;
+  padding: 20px 40px 20px 40px;
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+}
+.no_more_block p {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 2.2;
+}
+.no_more_block p span {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.give_list {
+  display: flex;
+  justify-content: center;
+}
+.give_list ul li {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 2.2;
+  position: relative;
+  padding-left: 35px;
+}
+.give_list ul li:before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 26px;
+  background: url("../image/arrow.png") no-repeat center;
+  background-size: contain;
+  top: 7px;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
