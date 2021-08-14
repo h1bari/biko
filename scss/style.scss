@@ -2882,7 +2882,7 @@ footer {
 
 }
 
-.desc{
+.desc {
   p {
     @include font(32px, $color: white, $weight: 600);
     font-family: "Poppins", Sans-serif;
@@ -2890,6 +2890,7 @@ footer {
     text-align: center;
   }
 }
+
 .scalping_header_two {
 
   .teaching_section {
@@ -2926,6 +2927,7 @@ footer {
   .two_things {
     display: flex;
     justify-content: center;
+
     .two_things_item {
       min-height: 120px;
       display: flex;
@@ -2933,32 +2935,37 @@ footer {
       flex-direction: column;
       text-align: center;
       align-items: center;
-      img{
+
+      img {
         width: 68px;
         height: 68px;
         margin-bottom: 20px;
       }
-      p{
+
+      p {
         @include font(21px, $color: white);
       }
     }
   }
 
-  .block_header_begin{
-    h2{
+  .block_header_begin {
+    h2 {
       margin-bottom: 30px;
     }
-    p{
-      @include font(21px, $color: white,$align:left);
+
+    p {
+      @include font(21px, $color: white, $align: left);
       margin-bottom: 20px;
     }
-    ul{
-      li{
-        @include font(21px, $color: white,$align:left,$weight:700);
+
+    ul {
+      li {
+        @include font(21px, $color: white, $align: left, $weight: 700);
         line-height: 2;
         position: relative;
         padding-left: 35px;
-        &:before{
+
+        &:before {
           position: absolute;
           content: "";
           width: 23px;
@@ -2972,7 +2979,8 @@ footer {
     }
   }
 }
-.no_more_block{
+
+.no_more_block {
 
   border-style: solid;
   border-width: 4px 4px 4px 4px;
@@ -2981,26 +2989,31 @@ footer {
   width: 65%;
   margin: auto;
   margin-top: 50px;
-  p{
-    @include font(24px, $color: white,$align:left);
+
+  p {
+    @include font(24px, $color: white, $align: left);
     line-height: 2.2;
-    span{
+
+    span {
       font-weight: 700;
       margin-right: 5px;
     }
   }
 }
-.give_list{
+
+.give_list {
   display: flex;
   justify-content: center;
-  ul{
 
-    li{
-      @include font(24px, $color: white,$align:left);
+  ul {
+
+    li {
+      @include font(24px, $color: white, $align: left);
       line-height: 2.2;
       position: relative;
       padding-left: 35px;
-      &:before{
+
+      &:before {
         position: absolute;
         content: "";
         width: 23px;
@@ -3013,3 +3026,35 @@ footer {
     }
   }
 }
+
+.couple_section {
+  background: #191A1E;
+  padding: 70px 0;
+  .three {
+
+    box-shadow: -15px 15px 0px 0px #0e27a0;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    background: #fff;
+    max-width: 90%;
+
+    .header_main_text {
+      h2{
+        @include font(24px, $color: black, $weight: 700, $align: left);
+        margin-bottom: 25px;
+      }
+      p {
+        @include font(19px, $color: black, $weight: 400, $align: left);
+        margin-bottom: 30px;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .feel_free{
+    margin-top: 90px;
+  }
+}
+

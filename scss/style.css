@@ -2824,4 +2824,36 @@ footer ul li a img {
   left: 0;
 }
 
+.couple_section {
+  background: #191A1E;
+  padding: 70px 0;
+}
+.couple_section .three {
+  box-shadow: -15px 15px 0px 0px #0e27a0;
+  margin: auto;
+  padding: 30px 30px 30px 30px;
+  background: #fff;
+  max-width: 90%;
+}
+.couple_section .three .header_main_text h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.couple_section .three .header_main_text p {
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.couple_section .three .header_main_text p span {
+  font-weight: 700;
+}
+.couple_section .feel_free {
+  margin-top: 90px;
+}
+
 /*# sourceMappingURL=style.css.map */
