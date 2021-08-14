@@ -48,7 +48,57 @@
         width: 80%;
     }
 
+    .container_header {
+        position: relative;
+    }
 
+    .header {
+        flex-direction: column;
+    }
+
+    .menu,.logo {
+align-self: flex-start;
+    }
+
+    .menu nav li {
+        display: block;
+        background: #fff;
+        padding: 15px 8px;
+        border-bottom-style: solid;
+        border-bottom-color: #c4c4c4;
+        border-bottom-width: 1px;
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        display: none;
+    }
+    .menu.active{
+        display: block;
+    }
+
+    .sub :after{
+        top: 21px;
+        right: 18px;
+    }
+
+    .menu nav li a{
+
+        padding: 0;
+
+    }
+    .menu nav li:last-child{
+        border-bottom: none;
+    }
+    .header{
+        position: relative;
+    }
+    .burger{
+        position: absolute;
+    }
+    .search{
+        display: none;
+    }
 }
 
 
@@ -547,7 +597,7 @@
         display: none;
     }
 
-    .scalping_header .teaching_section .scalping_header_wrap .introduce,.couple_section .three{
+    .scalping_header .teaching_section .scalping_header_wrap .introduce, .couple_section .three {
         box-shadow: none;
         padding: 10px;
     }
@@ -555,100 +605,117 @@
     .scalping_header .teaching_section .scalping_header_wrap .introduce .header_main_text h1 {
         font-size: 22px;
     }
-    .clients_say_section{
+
+    .clients_say_section {
         padding: 10px;
     }
+
     .clients_say_section .block_header h2 {
         font-size: 22px;
     }
-    .clients_say_section .img_block img{
+
+    .clients_say_section .img_block img {
         width: 100%;
     }
-    .no_more_block{
+
+    .no_more_block {
         margin: 0;
         width: 100%;
         padding: 10px;
     }
-    .artem_program{
+
+    .artem_program {
         padding: 10px;
     }
-    .no_more_block p{
+
+    .no_more_block p {
         font-size: 21px;
         line-height: 1.5;
         margin-bottom: 20px;
     }
 
-    .artem_program .two_things{
+    .artem_program .two_things {
         display: block;
     }
-    .artem_program .two_things .two_things_item{
+
+    .artem_program .two_things .two_things_item {
         width: 100%;
         margin: 0;
     }
-    .scalping_header_two .teaching_section .wrap_two{
+
+    .scalping_header_two .teaching_section .wrap_two {
         padding: 20px 0;
     }
-    .artem_program .block_header_begin h2{
+
+    .artem_program .block_header_begin h2 {
         font-size: 22px;
     }
 
-    .artem_program .block_header_begin p{
-        font-size: 17px;
-    }
-    .artem_program .block_header_begin ul li{
+    .artem_program .block_header_begin p {
         font-size: 17px;
     }
 
-    .artem_program .block_header_begin ul li:before,.give_list ul li:before{
+    .artem_program .block_header_begin ul li {
+        font-size: 17px;
+    }
+
+    .artem_program .block_header_begin ul li:before, .give_list ul li:before {
         width: 15px;
     }
-    .block_header h2,.couple_section .feel_free .wrap_four .header_main_text h2{
+
+    .block_header h2, .couple_section .feel_free .wrap_four .header_main_text h2 {
         font-size: 22px;
     }
-    .give_list ul li{
+
+    .give_list ul li {
         font-size: 17px;
     }
-    .couple_section .three{
+
+    .couple_section .three {
         max-width: 100%;
     }
 
-    .couple_section .three .header_main_text h2{
+    .couple_section .three .header_main_text h2 {
         font-size: 20px;
     }
-    .couple_section .feel_free .bonus_block{
+
+    .couple_section .feel_free .bonus_block {
         display: block;
 
     }
-    .couple_section .feel_free .bonus_block .bonus_item{
+
+    .couple_section .feel_free .bonus_block .bonus_item {
         margin-bottom: 30px;
     }
 
-    .couple_section .feel_free .bonus_description p{
+    .couple_section .feel_free .bonus_description p {
         font-size: 17px;
     }
 
-    .success_should .success_should_wrap{
+    .success_should .success_should_wrap {
         flex-direction: column-reverse;
         text-align: center;
     }
-    .success_should .success_should_wrap .left_side{
+
+    .success_should .success_should_wrap .left_side {
         width: 100%;
     }
-    .success_should .success_should_wrap .right_side img{
+
+    .success_should .success_should_wrap .right_side img {
         margin: 0;
     }
 
-    .feedback_section .small_video{
+    .feedback_section .small_video {
         display: block;
     }
-    .feedback_section .small_video iframe{
+
+    .feedback_section .small_video iframe {
         width: 100%;
     }
-    .feedback_section{
+
+    .feedback_section {
         padding: 5px;
     }
-
-
 
 
 }

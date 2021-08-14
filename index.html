@@ -14,10 +14,11 @@
     <div class="container_header">
         <div class="container">
             <header class="header">
+                <a href="#" class="burger active"></a>
                 <div class="logo">
                     <a href="index.html"><img src="./image/logo.png" alt="logo"></a>
                 </div>
-                <div class="menu">
+                <div class="menu active">
                     <nav>
                         <ul>
                             <li><a href="#">For Beginners</a></li>
@@ -404,5 +405,33 @@
         </div>
     </div>
 </footer>
+<script>
+    var burger = document.querySelector('.burger');
+    var menu = document.querySelector('.menu');
+    var sub = document.querySelectorAll('.sub');
+    function toggleMenu(node, add){
+        if(add) node.classList.add('active');
+        else node.classList.remove('active');
+    }
+    function check(node){
+        return node.classList.contains('active');
+    }
+    sub.forEach(function (elem, i){
+        elem.addEventListener('click', function (){
+            var sub_menu = elem.querySelector('.sub_menu');
+            if(check(this)) toggleMenu(sub_menu, false)
+            else toggleMenu(sub_menu, true)
+        })
+    })
+    burger.onclick = function (){
+        if(check(this)){
+            toggleMenu(this, false)
+            toggleMenu(menu, false)
+        } else {
+            toggleMenu(this, true)
+            toggleMenu(menu, true)
+        }
+    }
+</script>
 </body>
 </html>
