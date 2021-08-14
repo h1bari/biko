@@ -2914,11 +2914,22 @@ footer ul li a img {
 .join_header {
   margin-top: 80px;
 }
-.join_header h2 {
+.success_should .success_should_wrap .left_side {
+  width: 55%;
+}
+.success_should .success_should_wrap .left_side .block_header h2 {
   color: white;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.success_should .success_should_wrap .left_side .block_header p {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

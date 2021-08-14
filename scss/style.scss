@@ -3115,9 +3115,25 @@ footer {
 .join_header{
   margin-top: 80px;
   h2{
-    @include font(24px, $color: white, $weight: 700);
+
   }
 }
 .success_should{
+
+.success_should_wrap{
+  .left_side{
+    width: 55%;
+    .block_header{
+      h2{
+        @include font(32px, $color: white, $weight: 700,$align:left);
+        margin-bottom: 20px;
+      }
+      p{
+        @include font(19px, $color: white,$align:left);
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
 
 }
