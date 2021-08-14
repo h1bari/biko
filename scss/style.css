@@ -9,6 +9,10 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+iframe {
+  border: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif !important;
   font-weight: 600 !important;
@@ -2914,8 +2918,11 @@ footer ul li a img {
 .join_header {
   margin-top: 80px;
 }
+.success_should .success_should_wrap {
+  display: flex;
+}
 .success_should .success_should_wrap .left_side {
-  width: 55%;
+  width: 60%;
 }
 .success_should .success_should_wrap .left_side .block_header h2 {
   color: white;
@@ -2930,6 +2937,29 @@ footer ul li a img {
   font-weight: 400;
   text-align: left;
   margin-bottom: 20px;
+}
+.success_should .success_should_wrap .right_side {
+  justify-self: center;
+}
+.success_should .success_should_wrap .right_side img {
+  width: 60%;
+  margin-left: 100px;
+}
+
+.feedback_section {
+  background: #191A1E;
+  padding: 30px;
+}
+.feedback_section .small_video {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.feedback_section .small_video iframe {
+  width: 49%;
+}
+.feedback_section .big_video iframe {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

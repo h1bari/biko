@@ -1,0 +1,106 @@
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 100%;
+    }
+
+    .teaching_section .teaching_items_block .teaching_link_item {
+        margin: 0 5px;
+    }
+
+    .teaching_section .teaching_items_block .teaching_link_item .teaching_item .teaching_item_description {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    .header_main_text h1 {
+        font-size: 26px;
+    }
+
+    .header_main_text .registration_button {
+        line-height: 1;
+        font-size: 17px;
+        border-radius: 22px;
+    }
+    .wrap_content_block{
+        display: block;
+    }
+    .about_section .wrap_content_block .left_side,.about_section .wrap_content_block .right_side{
+        width: 100%;
+    }
+    .teaching_section .teaching_items_block {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .teaching_section .teaching_items_block .teaching_link_item .teaching_item .teaching_item_image {
+        display: none;
+    }
+
+    .right_side iframe{
+        width: 100%;
+        height: 350px;
+    }
+    .left_side, .right_side{
+        width: 100%;
+    }
+    .will_get_section{
+        padding: 50px 0;
+    }
+
+    .benefits_section .benefits_block{
+        display: block;
+    }
+    .benefits_section .benefits_block .benefits_block_item img{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .benefits_section .benefits_block .benefits_block_item{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .benefits_section .benefits_block .benefits_block_item h3,.benefits_section .benefits_block .benefits_block_item p{
+        text-align: center;
+    }
+    .team{
+        flex-direction: column;
+    }
+    .team .benefits_block_item{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 560px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}

@@ -14,7 +14,9 @@ $h_size: 32px;
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+iframe{
+  border: none;
+}
 h1, h2, h3, h4, h5, h6, {
   font-family: 'Poppins', sans-serif !important;
   font-weight: 600 !important;
@@ -3092,19 +3094,22 @@ footer {
 
     .wrap_four {
       margin-top: 50px;
+
       .header_main_text {
-          h2{
-            @include font(32px, $color: black, $weight: 700);
-            margin-bottom: 20px;
-          }
-        span{
+        h2 {
+          @include font(32px, $color: black, $weight: 700);
+          margin-bottom: 20px;
+        }
+
+        span {
           display: block;
           text-align: center;
           @include font(19px, $color: black);
           margin-bottom: 30px;
         }
-        p{
-          a{
+
+        p {
+          a {
             font-family: "Source Sans Pro", sans-serif;
           }
         }
@@ -3112,28 +3117,60 @@ footer {
     }
   }
 }
-.join_header{
+
+.join_header {
   margin-top: 80px;
-  h2{
+
+  h2 {
 
   }
 }
-.success_should{
 
-.success_should_wrap{
-  .left_side{
-    width: 55%;
-    .block_header{
-      h2{
-        @include font(32px, $color: white, $weight: 700,$align:left);
-        margin-bottom: 20px;
+.success_should {
+
+  .success_should_wrap {
+    display: flex;
+
+    .left_side {
+      width: 60%;
+
+      .block_header {
+        h2 {
+          @include font(32px, $color: white, $weight: 700, $align: left);
+          margin-bottom: 20px;
+        }
+
+        p {
+          @include font(19px, $color: white, $align: left);
+          margin-bottom: 20px;
+        }
       }
-      p{
-        @include font(19px, $color: white,$align:left);
-        margin-bottom: 20px;
+    }
+
+    .right_side {
+      justify-self: center;
+
+      img {
+        width: 60%;
+        margin-left: 100px;
       }
     }
   }
 }
-
+.feedback_section{
+  background: #191A1E;
+  padding: 30px;
+.small_video{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  iframe{
+    width: 49%;
+  }
+}
+  .big_video{
+    iframe{
+      width: 100%;
+    }
+  }
 }
