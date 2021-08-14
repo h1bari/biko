@@ -2888,5 +2888,37 @@ footer ul li a img {
   font-weight: 400;
   text-align: center;
 }
+.couple_section .feel_free .wrap_four {
+  margin-top: 50px;
+}
+.couple_section .feel_free .wrap_four .header_main_text h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.couple_section .feel_free .wrap_four .header_main_text span {
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.couple_section .feel_free .wrap_four .header_main_text p a {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.join_header {
+  margin-top: 80px;
+}
+.join_header h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
