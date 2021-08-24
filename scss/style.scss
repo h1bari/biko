@@ -3216,3 +3216,11 @@ footer {
     background-image: url("../image/close.png");
   }
 }
+
+.refund_policy_header_section{
+  .block_header{
+    h1{
+      @include font(32px, $color: black);
+    }
+  }
+}

@@ -3009,4 +3009,11 @@ footer ul li a img {
   background-image: url("../image/close.png");
 }
 
+.refund_policy_header_section .block_header h1 {
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
