@@ -3009,6 +3009,9 @@ footer ul li a img {
   background-image: url("../image/close.png");
 }
 
+.refund_policy_header_section {
+  padding: 50px 0;
+}
 .refund_policy_header_section .block_header h1 {
   color: black;
   font-size: 32px;

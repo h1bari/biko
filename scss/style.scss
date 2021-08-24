@@ -3218,6 +3218,7 @@ footer {
 }
 
 .refund_policy_header_section{
+  padding: 50px 0;
   .block_header{
     h1{
       @include font(32px, $color: black);
