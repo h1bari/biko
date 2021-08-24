@@ -3019,4 +3019,19 @@ footer ul li a img {
   text-align: center;
 }
 
+.rules_section .rules_item p, .rules_section .rules_item ul {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5;
+}
+.rules_section .rules_item .bold_text {
+  font-weight: 700;
+}
+.rules_section .rules_item .underline_text {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
