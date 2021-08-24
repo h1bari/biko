@@ -3019,8 +3019,11 @@ footer ul li a img {
   text-align: center;
 }
 
+.rules_section {
+  padding: 50px 0;
+}
 .rules_section .rules_item p, .rules_section .rules_item ul {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: black;
   font-size: 19px;
   font-weight: 400;
@@ -3032,6 +3035,10 @@ footer ul li a img {
 }
 .rules_section .rules_item .underline_text {
   text-decoration: underline;
+}
+.rules_section .rules_item a {
+  font-size: 19px;
+  color: #1565C0;
 }
 
 /*# sourceMappingURL=style.css.map */
